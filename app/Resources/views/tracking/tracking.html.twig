@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+    {{ form_errors(form.numberList) }}
+
+    <div>
+        {{ form_label(form.numberList) }}
+    </div>
+    <div>
+        {{ form_widget(form.numberList) }}
+    </div>
+
+    {{ form_end(form) }}
+
+
+
+{% endblock %}
+
+{% block stylesheets %}
+
+{% endblock %}

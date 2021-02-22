@@ -1,0 +1,3 @@
+is_number_list_separator: Do oddzielenia numerów użyj "{{separator}}"
+is_to_many_elements: Maksymalna ilość numerów nie może przekraczać {{limit}}
+connection_delivery_error: Nie udało się połączyć z serwerem przewoźnika.
